@@ -1,0 +1,145 @@
+nav{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.enlaces-menu{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding-inline: 20px;
+  height:0vh;
+}
+.enlaces-menu li{
+  width: 120px;
+  padding: 0px;
+  padding-inline: 4px;
+  margin-top: 10px;
+}
+.enlaces-menu li:hover{
+  letter-spacing: 1px;
+  transform: scale(1.05);
+}
+.ham span{
+  display: none;
+}
+.logo a{
+ font-size: 28px;
+}
+.enlaces-menu li a{
+  font-size: 18px;
+}
+.home{
+  margin-inline-start: 60px;
+  margin-top: 60px;
+}
+.home a{
+  height: 35px;
+  width: 168px;
+  margin: 30px auto;
+  font-size: 20px;
+}
+.home_container-content h2{
+ font-size: 42px;
+}
+.home_container-content h1{
+font-size: 50px;
+  margin-block:25px;
+}
+.home_container-content h1 p{
+  font-size: 52px;
+}
+.enlaces-menu  :hover{
+  background: transparent;
+}
+.btn{
+   height: 50px;
+  width: 247px;
+  margin-block-start: 30px;
+}
+a .redes{
+  width: 27px;
+  height: 27px;
+  margin-inline: 27px;
+  margin-block: 5px;
+}
+.title{
+   font-size: 36px;
+}
+.title2{
+   font-size: 36px;
+  margin-block-start: 140px;
+  margin-block-end: 40px;
+}
+.subtitle{
+  font-size: 24px;
+}
+.paragraph{
+  font-size: 18px;
+}
+.content{
+  display: flex;
+}
+.form{
+  width: 543px;
+}
+button{
+  margin: 25px;
+  margin-inline-start: 3px;
+}
+button::after{
+  font-size: 18px;
+}
+.icons{
+   margin-inline-start:30px;
+  margin-block-start: -20px;
+}
+.skills{
+  width: 75px;
+  height: 75px;
+  margin-inline: 25px;
+}
+.container{
+  margin-block-start: 130px;
+}
+.contact{
+  margin-block-start: 130px;
+}
+.buttonContact{
+  width: 200px;
+}
+.footer{
+  margin-inline-start:42px;
+}
+.project-image{
+  width: 80%;
+}
+.project-image2{
+  width: 50%;
+}
+.project{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  margin: auto;
+  margin-inline-end: 300px;
+  margin-block-end: 150px;
+}
+.container-img{
+  width: 80%;
+  margin-inline-start: 200px;
+  height: 500px;
+}
+.project-description{
+  width: 20%;
+}
+.draw-border{
+width: 70%;
+height: auto;
+margin-block-start: 0px;
+margin: auto;
+}
+.container{
+  margin: auto;
+}

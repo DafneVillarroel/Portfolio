@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./public/css/styles.css">
+  <link rel="stylesheet" href="./public/css/tablet.css" media="(min-width: 500px)">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/fb19f1bc27.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#">
+          Portfo<span>lio.</span>
+        </a>
+      </div>
+      <ul class="enlaces-menu">
+        <li><a href="#about">Sobre mi</a></li>
+        <li><a href="#projects">Projectos</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <button class="ham" type="button">
+        <span class="br-1"></span>
+        <span class="br-2"></span>
+        <span class="br-3"></span>
+      </button>
+    </nav>
+  </header>
+
+  <section data-aos="fade-up" class="home_container">
+    <div id="particles-js"></div>
+    <div class="home_container-content">
+      <h2>¡Hola!</h2>
+      <h1>Soy <p>D</p>afne Villarroel,</h1>
+      <h2>Frontend Developer</h2>
+    </div>
+    <div>
+      <button class="buttonContact">
+        <a href="mailto:dafnevillarroeldev@gmail.com">CONTACTAME</a>
+      </button>
+    </div>
+    <div class="icons">
+
+      <a class="icon" target="_blank" href="https://github.com/DafneVillarroel">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </a>
+      <a class="icon" target="_blank" href="tel:3513403007">
+        <i class="fa-solid fa-phone fa-2x"></i>
+      </a>
+      <a class="icon" target="_blank" href="https://www.linkedin.com/in/dafne-sol-villarroel-5061ba201/">
+        <i class=" fa-brands fa-linkedin fa-2x"></i>
+      </a>
+    </div>
+  </section>
+  <section class="container">
+    <div data-aos="fade-up" class="container-content">
+      <div class="content">
+        <div>
+          <h2 id="about" class="title">Sobre mi</h2>
+          <h3 class="subtitle">Soy Frontend Developer [React]</h3>
+          <p class="paragraph">Disfruto creando cosas geniales.
+          </p> Mi objetivo es desempeñarme en un equipo para seguir creciendo como ser humano y a nivel técnico. Me
+          considero una eterna estudiante.
+
+          #NeverStopLearning
+        </div>
+        <div>
+          <img class="container_img" src="./public/images/daf.jpeg" alt="about">
+        </div>
+      </div>
+
+
+    </div>
+
+  </section>
+
+  <section data-aos="fade-up" class="container">
+
+    <div class="container-content">
+      <h2 id="skills" class="title2">Mis Habilidades</h2>
+
+      <div class="skillsContainer">
+        <div>
+          <img class="skills" src="./public/images/html.png" alt="">
+          <h4 class="skillsContent">HTML5</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/css.png" alt="">
+          <h4 class="skillsContent">CSS3</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/js.png" alt="">
+          <h4 class="skillsContent">JavaScript</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/react.png" alt="">
+          <h4 class="skillsContent">React.js</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/bootstrap-logo.svg" alt="">
+          <h4 class="skillsContent">Bootstrap</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/icon-square-big.png" alt="">
+          <h4 class="skillsContent">Webpack</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/git.png" alt="">
+          <h4 class="skillsContent">Git</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/figma.svg" alt="">
+          <h4 class="skillsContent">Figma</h4>
+        </div>
+        <div>
+          <img class="skills" src="./public/images/google_firebase-2-512.webp" alt="">
+          <h4 class="skillsContent">Firebase</h4>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="container">
+    <h2 id="projects" class="title2">Proyectos</h2>
+    <div data-aos="fade-up" class="project">
+      <div class="container-img">
+        <img class="project-image" src="./public/images/ecommerce.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="project-title" target="_blank" href="https://comfy-klepon-1d4f2a.netlify.app/">E-commerce</a>
+        <p>La pagina consiste en una tienda de articulos de Trekking en la cual se puede filtrar por categorias.</p>
+        <div class="technology-container">
+          <div class="technology">React.js</div>
+          <div class="technology">Firebase</div>
+        </div>
+        <a href="https://comfy-klepon-1d4f2a.netlify.app/" target="_blank" class="btn draw-border">Ver proyecto</a>
+        <a href="https://github.com/DafneVillarroel/e-commerce" target="_blank" class="btn draw-border">Ver Codigo</a>
+      </div>
+    </div>
+    <div data-aos="fade-up" class="project">
+      <div class="container-img">
+        <img class="project-image2" src="./public/images/todo.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="project-title" target="_blank" href="https://dafnevillarroel.github.io/To-Do/">To-Do</a>
+        <p>WebApp que te permite planificar las tareas de tu día. Agrega nuevas tareas, marca las completadas. Elimina
+          y filtra tareas de tu lista.</p>
+        <div class="technology-container">
+          <div class="technology">React.js</div>
+        </div>
+        <a href="https://dafnevillarroel.github.io/To-Do/" target="_blank" class="btn draw-border">Ver proyecto</a>
+        <a href="https://github.com/DafneVillarroel/To-Do" target="_blank" class="btn draw-border">Ver Codigo</a>
+      </div>
+    </div>
+    <div data-aos="fade-up" class="project">
+      <div class="container-img">
+        <img class="project-image" src="./public/images/calculators.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="project-title" target="_blank" href="https://dafnevillarroel.github.io/Calculators/">Calculators</a>
+        <ul>
+          <li>
+            <p>Calcula el perímetro y área de figuras geométricas.</p>
+          </li>
+          <li>Calcula porcentajes y descuentos de tus productos.</li>
+          <li>Calcula la media, mediana y moda.</li>
+        </ul>
+
+        <div class="technology-container">
+          <div class="technology">JavaScript</div>
+        </div>
+
+        <a href="https://dafnevillarroel.github.io/Calculators/" target="_blank" class="btn draw-border">Ver
+          proyecto</a>
+        <a href="https://github.com/DafneVillarroel/Calculators" target="_blank" class="btn draw-border">Ver Codigo</a>
+      </div>
+    </div>
+    <div data-aos="fade-up" class="project">
+      <div class="container-img">
+        <img class="project-image2" src="./public/images/netflix.png" alt="">
+      </div>
+      <div class="project-description">
+        <a class="project-title" target="_blank" href="https://comfy-klepon-1d4f2a.netlify.app/">Netflix</a>
+        <p>Próximamente...</p>
+
+      </div>
+    </div>
+  </section>
+  <section class="contact">
+    <div class="u-wrapper">
+      <div class="contact-content">
+
+        <form id="form" action="" class="form" action="https://formspree.io/f/meqnkewg" method="POST">
+          <h2 id="contact" class="title" class="tag"><span>HABLEMOS</span></h2>
+          <label for="name">Nombre Completo</label>
+          <input name="name" required type="text" id="name" placeholder="Juan">
+          <label for="email">Correo electrónico <span></span></label>
+          <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" cols="30" rows="10"></textarea>
+          <button class="buttonContact buttonForm"> CONTACTAME
+          </button>
+        </form>
+        <a href="mailto:dafnevillarroeldev@gmail.com" id="trucazo"></a>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <footer class="footer">
+    <h4>Desarrollado por Dafne Villarroel</h4>
+    <div>
+      <a class="icon" target="_blank" href="https://github.com/DafneVillarroel">
+        <i class="fa-brands fa-github fa-2x"></i>
+      </a>
+      <a class="icon" target="_blank" href="tel:3513403007">
+        <i class="fa-solid fa-phone fa-2x"></i>
+      </a>
+      <a class="icon" target="_blank" href="https://www.linkedin.com/in/dafne-sol-villarroel-5061ba201/">
+        <i class=" fa-brands fa-linkedin fa-2x"></i>
+      </a>
+    </div>
+
+  </footer>
+
+  <script>
+    const $form = document.querySelector('#form');
+
+    $form.addEventListener('submit', handleSubmit)
+
+    async function handleSubmit(event) {
+      event.preventDefault()
+
+      const form = new FormData(this)
+      const response = await fetch("https://formspree.io/f/meqnkewg", {
+        method: this.method,
+        body: form,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+      if (response) {
+        this.reset()
+        swal("¡Gracias por comunicarte!", "Respondere pronto. ");
+      }
+    }
+
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script src="../particles/particles.js"></script>
+  <script src="./app.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src=" https://unpkg.com/sweetalert/dist/sweetalert.min.js "></script>
+</body>
+
+</html>
