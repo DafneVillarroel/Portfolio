@@ -78,9 +78,7 @@ a .redes{
 .paragraph{
   font-size: 18px;
 }
-.content{
-  display: flex;
-}
+
 .form{
   width: 543px;
 }
@@ -102,6 +100,15 @@ button::after{
 }
 .container{
   margin-block-start: 130px;
+   margin: auto;
+}
+.container-content{
+  margin: 0 auto;
+}
+.content{
+display: flex;
+margin: auto;
+width: 85%;
 }
 .contact{
   margin-block-start: 130px;
@@ -110,7 +117,7 @@ button::after{
   width: 200px;
 }
 .footer{
-  margin-inline-start:42px;
+  margin: auto;
 }
 .project-image{
   width: 80%;
@@ -128,18 +135,13 @@ button::after{
 }
 .container-img{
   width: 80%;
-  margin-inline-start: 200px;
-  height: 500px;
 }
 .project-description{
-  width: 20%;
+  width: 50%;
 }
 .draw-border{
-width: 70%;
+width: 40%;
 height: auto;
 margin-block-start: 0px;
 margin: auto;
-}
-.container{
-  margin: auto;
 }
